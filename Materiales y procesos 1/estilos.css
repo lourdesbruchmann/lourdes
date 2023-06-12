@@ -2,7 +2,7 @@ header { text-align: center; padding: 2px;  display:flex;
     flex-flow: wrap; justify-content: center; align-items: center;
     ; background-size: 100%; background-position: center; background-color: #2d3d56}
 .logo { width: 150px;}
-nav { width: 80%; text-align: right; padding: 10px; box-sizing: border-box}
+nav { width: 90%; text-align: right; padding: 10px; box-sizing: border-box}
 nav a { border: 1px solid #2d3d56; padding: 10px;
      color: rgb(255, 255, 255); text-decoration: none; background-color: #2d3d56; }
 nav a:hover {background-color: #2d3d56
