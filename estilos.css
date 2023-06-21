@@ -1,0 +1,79 @@
+header { text-align: center; padding: 2px;  display:flex; 
+    flex-flow: wrap; justify-content: center; align-items: center;
+    ; background-size: 100%; background-position: center; background-color: #2d3d56}
+.logo { width: 150px;}
+nav { width: 80%; text-align: right; padding: 10px; box-sizing: border-box}
+nav a { border: 1px solid #2d3d56; padding: 10px;
+     color: rgb(255, 255, 255); text-decoration: none; background-color: #2d3d56; }
+nav a:hover {background-color: #2d3d56
+; color: #D6C3BB; 
+    padding: 10px 10px 20px 10px ; transition: all 2ms;}
+.cajacontenedora {display: flex; }
+.cajacontenedora div {width: 35%; margin: 2%; background-color: rgb(255, 255, 255); }
+.foto { width: 330px;}
+.foto1 { width: 330px; }
+.foto2 { width: 330px;}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column-2.carta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  .plato-carta{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+  }
+  
+  .nigiri{
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+  }
+  
+  .title-plato-carta{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+  }
+  
+  .precio-plato-carta{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    font-weight: bold;
+  }
+footer { background-color: #2d3d56; color: #ffffff; padding: 10px}
+
+@media screen and (max-width: 768px) {
+    body { background-color: #ffffff;}
+    .cajacontenedora { flex-direction: column;}
+    .foto { width: 270%;}
+.foto1 { width: 270%; }
+.foto2 { width: 270%;}
+    .column-2.carta{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+
+@media screen and (max-width: 480px) {
+    body { background-color: #ffffff;}
+    .cajacontenedora { flex-direction: column;}
+    .foto { width: 270%;}
+.foto1 { width: 270%; }
+.foto2 { width: 270%;}
+.column-2.carta{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
